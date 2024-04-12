@@ -1,0 +1,141 @@
+
+Criar uma lista de 100 comandos Git pode ser um pouco exagerado, já que muitos deles têm funcionalidades semelhantes ou são variantes de outros comandos. No entanto, posso expandir um pouco mais a lista com algumas variações e comandos menos comuns. Aqui estão:
+
+git init: Inicializa um repositório Git.
+git clone: Clona um repositório remoto.
+git add: Adiciona arquivos ao índice.
+git commit: Grava as mudanças no repositório.
+git push: Envia commits para o repositório remoto.
+git pull: Puxa as mudanças do repositório remoto.
+git status: Mostra o estado dos arquivos.
+git log: Exibe o histórico de commits.
+git branch: Lista, cria ou exclui branches.
+git checkout: Altera o branch ou restaura arquivos.
+git merge: Mescla branches.
+git rebase: Reaplica commits em outra base.
+git stash: Armazena temporariamente as mudanças.
+git remote: Gerencia repositórios remotos.
+git config: Configura opções do Git.
+git reset: Reseta o HEAD para um commit específico.
+git diff: Mostra as diferenças entre commits, branches, etc.
+git tag: Cria, lista ou verifica tags.
+git fetch: Busca os commits do repositório remoto.
+git rm: Remove arquivos do diretório de trabalho e do índice.
+git mv: Move ou renomeia arquivos.
+git grep: Pesquisa no conteúdo dos arquivos.
+git bisect: Encontra um commit específico usando pesquisa binária.
+git blame: Mostra quem modificou cada linha de um arquivo e em qual commit.
+git archive: Cria um arquivo zip ou tar de um repositório.
+git submodule: Gerencia submódulos dentro do repositório.
+git cherry-pick: Aplica commits específicos em outro branch.
+git revert: Reverte um commit específico.
+git reflog: Mostra o histórico de referências, incluindo commits que não estão mais em nenhuma branch.
+git am: Aplica patches de e-mails ao repositório.
+git apply: Aplica patches em arquivos.
+git bisect: Ajuda a encontrar commits problemáticos usando pesquisa binária.
+git blame: Mostra quem modificou cada linha de um arquivo e em qual commit.
+git bundle: Cria um único arquivo contendo um repositório Git completo.
+git clean: Remove arquivos não rastreados do diretório de trabalho.
+git grep: Procura por padrões de texto em arquivos rastreados.
+git log: Exibe histórico de commits de uma forma personalizada.
+git merge: Combina alterações de uma branch em outra.
+git push: Atualiza referências remotas junto com associadas.
+git reflog: Gerencia informações de referência.
+git remote: Gerencia repositórios remotos.
+git reset: Redefine a posição HEAD atual.
+git revert: Desfaz commits específicos.
+git rm: Remove arquivos do diretório de trabalho e do índice.
+git show: Mostra informações sobre commits específicos.
+git stash: Armazena modificações temporariamente.
+git status: Exibe o status das alterações.
+git submodule: Gerencia submódulos do repositório.
+git tag: Gerencia tags.
+git branch -d: Exclui branches especificados.
+git checkout -b: Cria uma nova branch e a torna a branch atual.
+git clean -f: Remove arquivos não rastreados do diretório de trabalho.
+git commit --amend: Adiciona mudanças ao último commit.
+git diff --cached: Exibe as diferenças entre o índice e a HEAD.
+git fetch origin: Busca commits, referências, etc., do repositório remoto.
+git log --graph: Exibe o histórico de commits de forma gráfica.
+git merge --abort: Aborta o processo de merge.
+git mv: Move ou renomeia arquivos, diretórios ou links simbólicos.
+git pull --rebase: Puxa do repositório remoto e reaplica commits locais no topo da branch.
+git push --force: Força o push de commits locais para o repositório remoto, sobrescrevendo commits existentes.
+git rebase -i: Reescreve o histórico de commits interativamente.
+git remote -v: Lista os repositórios remotos configurados.
+git reset --hard: Redefine o estado do repositório para um commit específico, descartando todas as mudanças não confirmadas.
+git show HEAD: Mostra informações sobre o último commit na branch atual.
+git status -s: Exibe o status resumido das mudanças.
+git tag -a: Cria uma tag anotada.
+git add -p: Adiciona interativamente mudanças ao índice.
+git branch -m: Renomeia uma branch.
+git checkout --: Descarta mudanças em um arquivo específico no diretório de trabalho.
+git checkout -b <nome_da_branch> <commit_hash>: Cria uma nova branch a partir de um commit específico.
+git commit --allow-empty: Cria um commit vazio.
+git config --global: Configurações globais do Git.
+git diff <commit1> <commit2>: Exibe as diferenças entre dois commits.
+git fetch --all: Busca todos os branches e tags do repositório remoto.
+git log --author=<nome>: Filtra o histórico de commits pelo autor.
+git merge --no-ff: Realiza o merge criando um novo commit mesmo se puder ser feito um fast-forward.
+git pull origin <branch>: Puxa os commits de um branch específico do repositório remoto.
+git push --tags: Envia tags para o repositório remoto.
+**git rebase -i HEAD~<n>
+git log --oneline: Mostra o histórico de commits em uma única linha por commit.
+
+git log --author="nome": Mostra o histórico de commits de um autor específico.
+
+git log --grep="palavra-chave": Mostra o histórico de commits que contenham uma palavra-chave específica.
+
+git log --since="data": Mostra o histórico de commits desde uma data específica.
+
+git log --until="data": Mostra o histórico de commits até uma data específica.
+
+git log <arquivo>: Mostra o histórico de commits de um arquivo específico.
+
+git log --stat: Mostra estatísticas resumidas de alterações em cada commit.
+
+git log --patch: Mostra as diferenças de cada commit como patches.
+
+git log --graph --decorate --oneline: Combina os argumentos --graph, --decorate e --oneline para uma visualização concisa do histórico.
+
+git log --merges: Mostra apenas commits de merge.
+
+git log --no-merges: Mostra apenas commits que não são merges.
+
+git log --all: Mostra o histórico de todos os branches.
+
+git log --branches: Mostra o histórico de commits em todos os branches locais.
+
+git log --tags: Mostra o histórico de commits em todas as tags.
+
+git log --remotes: Mostra o histórico de commits em todos os branches remotos.
+
+git log --graph --all --decorate --oneline: Combina vários argumentos para uma visualização detalhada do histórico.
+
+git log --pretty=format:"%h - %an, %ar : %s": Define um formato personalizado para a saída do log.
+
+git log --since="2 weeks ago": Mostra o histórico de commits dos últimos 2 semanas.
+
+git log --grep="fix" --author="João": Mostra o histórico de commits que contenham "fix" e foram feitos por "João".
+
+git log --oneline --graph --all --decorate: Visualiza o histórico de commits de forma resumida e gráfica.
+
+git log --follow <arquivo>: Mostra o histórico de commits de um arquivo, mesmo se o arquivo foi renomeado.
+
+git log --no-abbrev-commit: Mostra os hashes completos dos commits.
+
+git log --graph --abbrev-commit --decorate --date=relative --all: Visualiza o histórico de commits de forma gráfica e resumida, com datas relativas e mostrando todos os branches.
+
+git log --since="1 month ago" --until="2 weeks ago": Mostra o histórico de commits entre 1 mês atrás e 2 semanas atrás.
+
+git log -- <caminho-do-arquivo>: Mostra o histórico de commits de um arquivo específico.
+
+git log --grep="<palavra-chave>": Mostra o histórico de commits que contenham uma palavra-chave específica.
+
+git log --oneline --author="<nome>": Mostra o histórico de commits de um autor específico.
+
+git log --oneline --graph --all --decorate: Mostra o histórico de commits de forma resumida e gráfica.
+
+git log --stat: Mostra estatísticas resumidas de alterações em cada commit.
+
+git log --reverse: Mostra o histórico de commits em ordem reversa.
